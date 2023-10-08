@@ -1,0 +1,17 @@
+/* Add this CSS to your stylesheet */
+.main {
+  min-height: calc(
+    100vh - 80px
+  ); /* Subtract the height of your footer from 100vh */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Style your footer as needed */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

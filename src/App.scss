@@ -1,0 +1,27 @@
+@import './scss/bootstrap.scss';
+@import './scss/login';
+@import './scss/-header.scss';
+.attendance-container {
+    padding: 20px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .attendance-table th,
+    .attendance-table td {
+      font-size: 14px;
+    }
+  }
+
